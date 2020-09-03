@@ -1,0 +1,44 @@
+/* ========RESET========= */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+}
+
+.container .section {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+
+.container .section:nth-child(1) {
+    background: url("../img/Foto1.jpg") center bottom/100vw 100vh;
+    background: cover;
+}
+
+.container .section:nth-child(2) {
+    background: url("../img/Foto2.jpg") center bottom/100vw 100vh;
+    background: cover;
+}
+
+.container .section:nth-child(3) {
+    background: url("../img/Foto3.jpg") center bottom/100vw 100vh;
+    background: cover;
+}
+
+.container .section:nth-child(4) {
+    background: url("../img/Foto4.jpg") center bottom/100vw 100vh;
+    background: cover;
+}
+
+.container .section:nth-child(5) {
+    background: url("../img/Foto5.jpg") center bottom/100vw 100vh;
+    background: cover;
+}
